@@ -5,15 +5,15 @@ const flourish = document.querySelector('.flourish');
 const flourishData = [
    {
       dataName: `<iframe src='https://flo.uri.sh/visualisation/9770296/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:80vw;height:85vh; sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div class="made-flourish"><a class='flourish-credit' href='https://public.flourish.studio/visualisation/9770296/?utm_source=embed&utm_campaign=visualisation/9770296' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>`,
-      title: 'Оң тарап'
+      title: 'Оң жақ сенім интервалы'
    },
    {
       dataName: `<iframe src='https://flo.uri.sh/visualisation/9813699/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:80vw;height:85vh; sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div class="made-flourish"><a class='flourish-credit' href='https://public.flourish.studio/visualisation/9813699/?utm_source=embed&utm_campaign=visualisation/9813699' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>`,
-      title: 'Сол тарап'
+      title: 'Сол жақ сенім интервалы'
    },
    {
       dataName: `<iframe src='https://flo.uri.sh/visualisation/9813744/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:80vw;height:85vh; sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div class="made-flourish"><a class='flourish-credit' href='https://public.flourish.studio/visualisation/9813744/?utm_source=embed&utm_campaign=visualisation/9813744' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>`,
-      title: 'Ортаңғы тарап'
+      title: 'Екі жақты сенім интервалы'
    },
 ]
 
@@ -34,6 +34,7 @@ function visualisation(i = 0) {
 
       flourish.append(el);
    }, 200)
+   
 }
 
 visualisation();
